@@ -2,16 +2,11 @@
 
 # Build Night Setup: Claude and Claude Code
 
-This guide gets your computer ready for BuildNight on October 15th, 5:30 PM–8:30 PM at Tech Town Detroit.
+This guide gets your computer ready for BuildNight on October 27th, 5:30 PM–8:30 PM at Tech Town Detroit.
 
 Please finish Parts 1–4 **before** you arrive. Setup problems are much easier to fix at home than in a room of 30 people sharing Wi-Fi.
 
 >We will use this workbook for tonight session. Please reference the Claude Workbook in the repo
-
-
- 
-
-
 ---
 
 ## What you need
@@ -39,110 +34,6 @@ Please finish Parts 1–4 **before** you arrive. Setup problems are much easier 
 | Chat with Claude, ideate, get feedback | Yes | Yes |
 | Claude Design (wireframes) |Yes | Yes |
 | Claude Code in the terminal | **No** | Yes |
-
----
-
-## Part 2: Install the Claude app (optional but recommended)
-
-You can use Claude in your web browser at https://claude.ai. The desktop app works the same way and is a little easier to keep open while you work.
-
-1. Go to **https://claude.com/download**
-2. Download the version for your computer (Mac or Windows).
-3. Open the downloaded file and follow the installer.
-4. Open Claude and sign in with the account from Part 1.
-
-[FILL IN: Anything specific you want them to try in the app before the workshop, e.g. "Ask Claude to describe an app idea you've had."]
-
----
-
-## Part 3: Open your terminal
-
-The terminal is a window where you type commands instead of clicking. You only need it for Claude Code.
-
-### Mac
-1. Press **Command + Space** to open Spotlight.
-2. Type **Terminal** and press **Enter**.
-
-### Windows
-1. Click the **Start** menu.
-2. Type **PowerShell** and open **Windows PowerShell**.
-3. You'll know you're in PowerShell if the line starts with `PS C:\`.
-
-### Linux
-Press **Ctrl + Alt + T**, or search for **Terminal** in your apps.
-
-**Tip for beginners:** To paste into the terminal, use **Command + V** on Mac. On Windows PowerShell, use **Ctrl + V** or right-click.
-
-[FILL IN: Any terminal basics you want them to know, e.g. what `cd` and `ls` do, how to make a project folder.]
-
----
-
-## Part 4: Install Claude Code
-
-Copy the command for your computer, paste it into your terminal, and press **Enter**.
-
-### Mac, Linux, or WSL
-```bash
-curl -fsSL https://claude.ai/install.sh | bash
-```
-
-### Windows (PowerShell)
-```powershell
-irm https://claude.ai/install.ps1 | iex
-```
-
-### Windows (Command Prompt / CMD)
-```batch
-curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
-```
-
-The installer does not show a progress bar while it downloads. Wait until you see your normal prompt again.
-
-**Windows users:** Installing [Git for Windows](https://git-scm.com/downloads/win) is optional but recommended. Claude Code works without it, using PowerShell instead.
-
-### Check that it worked
-
-1. **Close your terminal and open a new one.** This step is required.
-2. Type this and press **Enter**:
-   ```bash
-   claude --version
-   ```
-3. You should see a version number, something like `2.1.211 (Claude Code)`.
-
-If you see `command not found` or `not recognized`, go to the Troubleshooting section below.
-
----
-
-## Part 5: Log in and run Claude Code for the first time
-
-1. Make a folder for your workshop project and move into it:
-
-   **Mac / Linux:**
-   ```bash
-   mkdir build-night
-   cd build-night
-   ```
-
-   **Windows:**
-   ```powershell
-   mkdir build-night
-   cd build-night
-   ```
-
-2. Start Claude Code:
-   ```bash
-   claude
-   ```
-
-3. A browser window will open asking you to log in. Sign in with the account from Part 1 and approve access.
-4. Return to the terminal. You should see Claude Code waiting for your message.
-5. Try a first message:
-   ```
-   What files are in this folder?
-   ```
-6. To exit Claude Code, type `/exit` or press **Ctrl + C** twice.
-
-Official install troubleshooting: https://code.claude.com/docs/en/troubleshoot-install
 
 ---
 
