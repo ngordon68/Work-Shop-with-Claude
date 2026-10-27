@@ -1,13 +1,4 @@
-# Work-Shop-with-Claude
-
-# Build Night Setup: Claude and Claude Code
-
-This guide gets your computer ready for BuildNight on October 27th, 5:30 PM–8:30 PM at Tech Town Detroit.
-
-Please finish Parts 1–4 **before** you arrive. Setup problems are much easier to fix at home than in a room of 30 people sharing Wi-Fi.
-
->We will use this workbook for tonight session. Please reference the Claude Workbook in the repo
----
+# Build Night Setup: Claude
 
 ## What you need
 
@@ -21,7 +12,7 @@ Please finish Parts 1–4 **before** you arrive. Setup problems are much easier 
 
 ---
 
-## Part 1: Create a Claude account
+## Create a Claude account
 
 1. Go to **https://claude.ai**
 2. Click **Sign up** and create an account with your email or Google account.
